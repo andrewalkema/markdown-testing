@@ -6,7 +6,7 @@ output "clients" {
 		# If you have a single client registration, place it in this list
 		[
 			module.already_existing_service.data,
-			<font color="green">module.my_service.data,</font>
+			<strong>module.my_service.data,</strong>
 			module.zz_existing_service.data,
 		],
 	)
